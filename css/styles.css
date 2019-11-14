@@ -1,4 +1,4 @@
-.hero, .matatu, .guide {
+.hero, .matatu, .guide, .guides {
     text-align: center;
 }
 .jumbotron {
@@ -13,3 +13,4 @@
 .forms {
     display: inline;
 }
+
