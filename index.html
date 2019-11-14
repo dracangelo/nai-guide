@@ -26,27 +26,28 @@
           <h1>paddington sCrUM master</h1>
           <div class="container">
             <label>Where are you travelling From?</label>
-            <select class="custom-select custom-select-lg mb-3" id="start" >
+            <select class="custom-select custom-select-lg mb-3" id="start" onchange="getVariables()">
               <option value="a">gpo</option>
               <option value="b">Cbd </option>
               <option value="c">cic</option>
               <option value="d">prestige</option>
               <option value="e">adams</option>
-              <option value="f">karen</option>
+              
               
               
             </select>
             <label>Where is you destination?</label>
-            <select class="custom-select custom-select-lg" id="destination" >
+            <select class="custom-select custom-select-lg" id="destination" onchange="getVariables()" >
               <option value="a">gpo</option>
               <option value="b">cbd</option>
               <option value="c">cic</option>
               <option value="d">prestige</option>
               <option value="e">adams</option>
-              <option value="f">karen</option>
+              
              
             </select>
             <button type="button" class="btn btn-outline-info m-3" id="button">Find Route</button>
+            <button type="button" class="btn btn-outline-info m-3" id="guide">Find Guide</button>
           </div>
         
     <!-- link javascript -->
