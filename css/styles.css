@@ -1,4 +1,4 @@
-.hero, .matatu, .guide, .guides {
+.hero, .matatu, .guide, .guides, .profiles {
     text-align: center;
 }
 .jumbotron {
@@ -13,4 +13,13 @@
 .forms {
     display: inline;
 }
-
+.guide-header {
+    text-align: center;
+}
+.card {
+    text-align: center;
+}
+.profiles > .col {
+    display: flex;
+    justify-content: center;
+}
