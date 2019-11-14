@@ -1,0 +1,16 @@
+.hero, .matatu, .guide, .guides {
+    text-align: center;
+}
+.jumbotron {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    height: 70px;
+    width: 70px;
+}
+.forms {
+    display: inline;
+}
+
