@@ -28,7 +28,7 @@ function getVariables() {
         ae : ['AT the GPO bus stop board citi-hoppa 4w, on site of Junction mall on your right know that you are  twenty four minutes away from destination. On arival you should see shell pertol station on your left'],
         af : ['At the GPO bus stop board citi-hoppa 4w, on site of Junction mall on your right know that you are  thirty minutes away from destination. On arival you should see Milele mall on your left'],
         bb : ['Already at destination'],
-        bC : ['At the Prestige bus stop board citi-hoppa 4w, on site of Greenhouse mall on your left know that you are  five minutes away from destination. On arival you should see Junction shopping mall on your right'],
+        bc : ['At the Prestige bus stop board citi-hoppa 4w, on site of Greenhouse mall on your left know that you are  five minutes away from destination. On arival you should see Junction shopping mall on your right'],
         bd: ['At the Prestige bus stop board citi-hoppa 4w, on site of Junction mall on your right know that you are  ten minutes away from destination. On arival you should see lenana school on your left'],
         be : ['At the Prestige bus stop board citi-hoppa 4w, on site of Junction mall on your right know that you are  ten minutes away from destination. On arival you should see shell petro station on your left'],
         bf : ['At the Prestige bus stop board citi-hoppa 4w, on site of Junction mall on your right know that you are  twenty minutes away from destination. On arival you should see Milele shopping mall on your left'],
