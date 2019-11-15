@@ -20,6 +20,9 @@ The following styles of coding have been used in our project to help other progr
 Logo and screenshots of the application when in use.
 [logo](assets/images/logo.png)
 
+## BDD
+
+
 
 ## Technologies/framework used
 - HTML, Javascript, CSS, jquery, bootstrap.
@@ -36,17 +39,14 @@ Show what the library does as concisely as possible, developers should be able t
 To access our web app ;
 - First you need a device with browser like, Google chrome, Safari, Internet explorer or such.
 - Ensure you have an internet connection.
-- Type Nai-Guide and choose the first result. ***yaay!***
-
-## API Reference
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+- Type Nai-Guide and choose the first result.
+- Access your route or guide. ***yaay!***
 
 ## Contribute
 - If you would like to contribute to this project, contact the Scrum master @ lthamma3@gmail.com 
 
 ## Credits
-Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project.
-All thanks to the contributors : Simon KImani, Mark Watitwa, Kelvin Mbugua,and Mburiah Betty
+All thanks to the contributors : Simon Kimani, Mark Watitwa, Kelvin Mbugua,and Mburiah Betty. 
 Hammerton Mutuku for his insipiring idea.
 ## License
 This project is licenced undet the MIT licence. [LICENSE]
