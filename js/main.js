@@ -1,4 +1,3 @@
-
 function getVariables() {
     getstart = document.getElementById("start");
     start = getstart.options[getstart.selectedIndex].value;
@@ -15,11 +14,7 @@ function getVariables() {
   function getDirections() {
     locations = start + destination;
   }
-  $(document).ready(function () {
-      $('select').selectize({
-          sortField: 'text'
-      });
-  });
+;
   $("#button").click(function() {
     getVariables();
     defineRoutes();
@@ -111,7 +106,10 @@ function getVariables() {
     // else {
    output.innerHTML =
       " The following guides will be of assistance " + guidesObject[locations];
-    
-  
   });
+//   $(document).ready(function(){
+//     $('form#myForm').submit(function (event) {
+//         event.preventDefault();
+
+
   

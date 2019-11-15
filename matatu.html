@@ -7,14 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./assets/bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    
     <title>Nai Guide | Home</title>
 </head>
 
-<body style="background-color: black; color: white;">
+<body>
     <div class="container-fluid">
         <div class="row">
             <div class="col navigation">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="index.html"><img class="img-fluid logo" src="./assets/images/logo.png"
                             alt="logo"> Nai Guide</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -33,33 +34,41 @@
                 </nav>
             </div>
         </div>
-        <div class="row">
-            <div class="col hero">
-                <div class="jumbotron jumbotron-fluid">
-                    <div class="container">
-                        <h2 class="display-2">Nai Guide</h2>
-                        <p class="lead">Get there  <span class="type"></span></p>
-                    </div>
-                </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-6 col-sm-12 matatu">
+                <h2 class="display-4 forms">Where To?</h2>
+                <select class="custom-select mb-3" id="start" onchange="getVariables()">
+                    <option selected>Select Your Current Location</option>
+                    <option value="a">Gpo</option>
+                    <option value="b">Prestige</option>
+                    <option value="c">Junction</option>
+                    <option value="d">Lenana</option>
+                    <option value="e">Karen</option>
+                    <option value="f">Ngong</option>
+                </select>
+                <select class="custom-select" id="destination"  onchange="getVariables()">
+                        <option value="a">Gpo</option>
+                        <option value="b">Prestige</option>
+                        <option value="c">Junction</option>
+                        <option value="d">Lenana</option>
+                        <option value="e">Karen</option>
+                        <option value="f">Ngong</option>
+                </select><br><br>
+                <button type="button" class="btn btn-outline-info m-3" id="button">Find Route</button>
+                <button type="button" class="btn btn-outline-info m-3" id="guide">Find Guide</button>
+                <p id="display"></p>
             </div>
         </div>
-        <div class="row links">
-            <div class="col matatu">
-                <a class="buttons" href="matatu.html">Matatu Routes</a>
-            </div>
-            <div class="col guide">
-                <a class="buttons" href="guides.html">Find a Guide</a>
-            </div>
+        <div class="col">
+                <h2 class="lead">Need a personal guide instead?</h2>
+                <a href="guides.html">Click Here</a>
         </div>
     </div>
 
     <!-- link javascript -->
     <script src="./js/jquery-3.4.1.js"></script>
     <script src="./assets/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
-    <script src="./js/typed.js"></script>
-    <script src="./js/script.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
 </html>
-    
