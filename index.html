@@ -10,12 +10,13 @@
     <title>Nai Guide | Home</title>
 </head>
 
-<body>
+<body style="background-color: black; color: white;">
     <div class="container-fluid">
         <div class="row">
             <div class="col navigation">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="index.html"><img class="img-fluid logo" src="./assets/images/logo.png" alt="logo"></a>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+                    <a class="navbar-brand" href="index.html"><img class="img-fluid logo" src="./assets/images/logo.png"
+                            alt="logo"> Nai Guide</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -24,10 +25,9 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav ml-auto">
                             <a class="nav-item nav-link" href="matatu.html">Fika Na Ma3</a>
-                            <a class="nav-item nav-link" href="#">Our Guides</a>
-                            <a class="nav-item nav-link" href="#">Pricing</a>
-                            <a class="nav-item nav-link" href="#">Popular Destinations</a>
-                            <a class="nav-item nav-link" href="#">Contact Us</a>
+                            <a class="nav-item nav-link" href="guides.html">Our Guides</a>
+                            <a class="nav-item nav-link" href="destinations.html">Popular Destinations</a>
+                            <a class="nav-item nav-link" href="contact.html">Contact Us</a>
                         </div>
                     </div>
                 </nav>
@@ -37,18 +37,18 @@
             <div class="col hero">
                 <div class="jumbotron jumbotron-fluid">
                     <div class="container">
-                        <h1 class="display-4">Nai Guide</h1>
-                        <p class="lead">Get there on time</p>
+                        <h2 class="display-2">Nai Guide</h2>
+                        <p class="lead">Get there  <span class="type"></span></p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row links">
             <div class="col matatu">
-                    <button type="button" class="btn btn-primary">Matatu</button>
+                <a class="buttons" href="matatu.html">Matatu Routes</a>
             </div>
             <div class="col guide">
-                    <button type="button" class="btn btn-primary">Guide</button>
+                <a class="buttons" href="guides.html">Find a Guide</a>
             </div>
         </div>
     </div>
@@ -56,6 +56,8 @@
     <!-- link javascript -->
     <script src="./js/jquery-3.4.1.js"></script>
     <script src="./assets/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="./js/typed.js"></script>
+    <script src="./js/script.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
