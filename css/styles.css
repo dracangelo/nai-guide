@@ -1,28 +1,54 @@
-.hero, .matatu, .guide, .guides, .profiles, .col, .form {
+.hero,
+.matatu,
+.guide,
+.guides,
+.profiles,
+.col,
+.form {
     text-align: center;
 }
+
 .jumbotron {
     height: 70vh;
     display: flex;
     align-items: center;
 }
+
 .logo {
     height: 70px;
     width: 70px;
 }
+
 .forms {
     display: inline;
 }
+
 .guide-header {
     text-align: center;
 }
+
 .card {
     text-align: center;
 }
-.profiles > .col {
+
+.profiles>.col {
     display: flex;
     justify-content: center;
 }
 
-/* gallery with filter */
+.jumbotron {
+    background-image: url(../assets/images/image2.jpg);
+    background-size: cover;
+    color: white;
+}
 
+.gallery {
+    margin: 15px;
+}
+
+.container {
+    text-align: center;
+}
+.container > h1 {
+    text-transform: uppercase;
+}
