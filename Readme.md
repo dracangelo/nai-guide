@@ -1,4 +1,4 @@
-## Project title
+## NAI GUIDE
 Nai-Guide. This is a web app suitable for someone visiting Nairobi and they dont know where to start. It enables you to link with a guide or find how you can get to your destination safe and easily.
 
 ## Motivation
@@ -15,14 +15,15 @@ The following styles of coding have been used in our project to help other progr
 3. js-standard-style,
 4. Use of white space around operators.
 
-
 ## Screenshots
 Logo and screenshots of the application when in use.
-[logo](assets/images/logo.png)
+- <img src = "assets/images/logo.png" height=300>
+- <img src="assets/images/homeScreenshot.png" height=300>
+- <img src="assets/images/whereTo2.png" height= 300>
 
 ## BDD
-
-
+When you open this web app on your browser, you are able to see the get started button. When you click it, you get to access where to? ,
+you choose your location and decide which option is better for you. Find route, you recieve instructions or Find guide, you get a guide's contact. 
 
 ## Technologies/framework used
 - HTML, Javascript, CSS, jquery, bootstrap.
@@ -46,8 +47,8 @@ To access our web app ;
 - If you would like to contribute to this project, contact the Scrum master @ lthamma3@gmail.com 
 
 ## Credits
-All thanks to the contributors : Simon Kimani, Mark Watitwa, Kelvin Mbugua,and Mburiah Betty. 
-Hammerton Mutuku for his insipiring idea.
+- All thanks to the contributors : Simon Kimani, Mark Watitwa, Kelvin Mbugua,and Mburiah Betty. 
+- Hammerton Mutuku for his insipiring idea.
 ## License
 This project is licenced undet the MIT licence. [LICENSE]
 
