@@ -31,7 +31,7 @@ Logo and screenshots of the application when in use.
 
 ## Features
 ***What makes our project stand out***
-
+It enables a user to select between finding a matatu or a guide.
 ## Code Example
 Show what the library does as concisely as possible, developers should be able to figure out how your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
