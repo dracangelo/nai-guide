@@ -3,7 +3,7 @@ var typed = new Typed('.type', {
         'Faster.',
         'Easier.',
         'In a more convenient way.',
-        'Haslle free.'
+        'Hassle free.'
     ],
     typeSpeed:60,
     backSpeed:60,

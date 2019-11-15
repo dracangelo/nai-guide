@@ -37,7 +37,7 @@
 }
 
 .jumbotron {
-    background-image: url(../assets/images/image2.jpg);
+    background-image: url(../assets/images/image2-1.jpg);
     background-size: cover;
     color: white;
 }
@@ -51,4 +51,19 @@
 }
 .container > h1 {
     text-transform: uppercase;
+}
+.buttons {
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 7px;
+    border-radius: 5px;
+}
+.buttons:hover {
+    color: white;
+    background-color: tomato;
+    text-decoration: none;
+}
+.links {
+    padding-top: 40px;
 }
