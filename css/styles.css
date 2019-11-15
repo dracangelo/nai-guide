@@ -67,3 +67,13 @@
 .links {
     padding-top: 40px;
 }
+.mat, .form {
+    background-color: thistle;
+    border-radius: 10px;
+}
+#button, #guide {
+    color: black;
+}
+.navbar {
+    
+}

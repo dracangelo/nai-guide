@@ -14,8 +14,8 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col navigation">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="col navigation p-0">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <a class="navbar-brand" href="index.html"><img class="img-fluid logo" src="./assets/images/logo.png"
                             alt="logo"> Nai Guide</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -26,18 +26,17 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav ml-auto">
                             <a class="nav-item nav-link" href="matatu.html">Get Directions</a>
-                            <a class="nav-item nav-link" href="guides.html">Our Guides</a>
                             <a class="nav-item nav-link" href="contact.html">Contact Us</a>
                         </div>
                     </div>
                 </nav>
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-6 col-md-6 col-sm-12 matatu">
-                <h2 class="display-4 forms">Where To?</h2>
+        <div class="row justify-content-center mt-5">
+            <div class="col-lg-6 col-md-6 col-sm-12 matatu mat">
+                <h2 class="display-4 forms">Where To?</h2><br><br>
+                <label>Your Current Location</label>
                 <select class="custom-select mb-3" id="start" onchange="getVariables()">
-                    <option selected>Select Your Current Location</option>
                     <option value="a">Gpo</option>
                     <option value="b">Prestige</option>
                     <option value="c">Junction</option>
@@ -45,6 +44,7 @@
                     <option value="e">Karen</option>
                     <option value="f">Ngong</option>
                 </select>
+                <label>Your Destination</label>
                 <select class="custom-select" id="destination"  onchange="getVariables()">
                         <option value="a">Gpo</option>
                         <option value="b">Prestige</option>
