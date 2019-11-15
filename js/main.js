@@ -100,16 +100,17 @@ function getVariables() {
       fe: [" Anthony- 0713813914  or  Clare - 0713813913"],
       ff: ["You do not need a guide you are already at this Destination"]
     };
-    // if((locations ===aa)  || (locations ===bb) ||(locations ===cc) ||(locations ===dd) ||(locations ===ee) ||(locations ===ff)) {
-    //     output.innerHTML=guidesObject[locations];
-    // }
-    // else {
+    
    output.innerHTML =
       " The following guides will be of assistance " + guidesObject[locations];
   });
 //   $(document).ready(function(){
-//     $('form#myForm').submit(function (event) {
-//         event.preventDefault();
+//     $('#sumit').submit(function (event) {
+//         event.preventDefault(); 
+//         outputParagraphs.innerHTML=" Thank you for reaching out to us."
+//     })
+// })
+        
 
 
   
