@@ -18,7 +18,7 @@ The following styles of coding have been used in our project to help other progr
 
 ## Screenshots
 Logo and screenshots of the application when in use.
-[logo](../logo.png)
+[logo](assets/images/logo.png)
 
 
 ## Technologies/framework used
