@@ -68,45 +68,50 @@ function getVariables() {
     outputParagraphs();
     getDirections();
     guidesObject = {
-      aa: ["Simon - 0713813919  OR Ann - 0720384088"],
+      aa: ["You do not need a guide you are already at this Destination"],
       ab: ["Angelo - 070210098 OR Nancy-0740100369"],
-      ac: ["Anthony- 0713813919 Pamela- 0713813919"],
-      ad: ["Mark - 0713813919  Betty - 0713813914"],
-      ae: ["Kimani - 0713813919  Yvonne - 0713812919"],
-      af: ["SamSon- 0713813914   Rahab - 0713813913"],
-      bb: ["Kelvin - 0713813919   Alice- 0713813911"],
-      ba: ["Brian- 0713813919  Mercy - 0713813919"],
-      bc: ["Sam- 0713813914   Judy - 0713813913"],
-      bd: ["Samora- 0713813914  Christine- 0713813914"],
-      be: [" Zack- 0713813914  Mercy- 0713813999"],
-      bf: ["Philip- 0713813914   Rose- 0713813913"],
-      ca: [ "Hammerton- 0713813914  lillian- 0713813914"],
-      cb: ["Brian- 0713813919  Ann - 0720384088"],
-      cc: ["Samuel - 0720384088  Hannah -0712345678"],
-      cd: ["Brian- 0713813919 Ann - 0720384088"],
-      ce: ["John - 0713813919   Milka- 0713813911"],
-      cf: ["SamSon- 0713813914   Rahab - 0713813913"],
-      da: ["Kelvin - 0713813919   Alice- 0713813911"],
-      db: ["Mark- 0713813919  Ann - 0720384088"],
-      dc: ["James - 0713813919   Hannah- 0713813911"],
-      dd: ["John- 0713813919   Happy- 0713813911"],
-      de: ["Kelvin - 0713813919   Alicia 0713813911"],
-      df: ["Simon- 0713813914   Loise - 0713813913"],
-      ea: ["Brian- 0713813919  Ann - 0720384088"],
-      eb: ["Simon- 0713813919   Alicia- 0713813911"],
-      ec: ["Samson - 0713813919   Rose- 0713813911"],
-      ed: ["Kevoh - 0713813919   Alice- 0713813911"],
-      ee: ["Brian- 0713813919  Ann - 0720384088"],
-      ef: ["Angelo- 0713813919   Alice- 0713813911"],
-      fa: ["Moha- 0722311908  Rose-0722311319"],
-      fb: [" Sam- 0713813914   Judy - 0713813913"],
-      fc: ["SamSon- 0713813914   Rahab - 0713813913"],
-      fd: ["John- 0713813914   Vennesa - 0713813913"],
-      fe: [" Anthony- 0713813914   Clare - 0713813913"],
-      ff: ["Judas- 0713813914   Rahab - 0713813913"]
+      ac: ["Anthony- 0713813919 OR  Pamela- 0713813919"],
+      ad: ["Mark - 0713813919 OR  Betty - 0713813914"],
+      ae: ["Kimani - 0713813919 OR  Yvonne - 0713812919"],
+      af: ["SamSon- 0713813914  OR  Rahab - 0713813913"],
+      bb: ["You do not need a guide you are already at this Destination"],
+      ba: ["Brian- 0713813919 OR  Mercy - 0713813919"],
+      bc: ["Sam- 0713813914  OR  Judy - 0713813913"],
+      bd: ["Samora- 0713813914 OR  Christine- 0713813914"],
+      be: [" Zack- 0713813914 OR Mercy- 0713813999"],
+      bf: ["Philip- 0713813914 OR  Rose- 0713813913"],
+      ca: [ "Hammerton- 0713813914 OR lillian- 0713813914"],
+      cb: ["Brian- 0713813919 OR Ann - 0720384088"],
+      cc: ["You do not need a guide you are already at this Destination"],
+      cd: ["Brian- 0713813919 OR  Ann - 0720384088"],
+      ce: ["John - 0713813919  OR  Milka- 0713813911"],
+      cf: ["SamSon- 0713813914 OR Rahab - 0713813913"],
+      da: ["Kelvin - 0713813919  OR  Alice- 0713813911"],
+      db: ["Mark- 0713813919  OR Ann - 0720384088"],
+      dc: ["James - 0713813919   OR Hannah- 0713813911"],
+      dd: ["You do not need a guide you are already at this Destination"],
+      de: ["Kelvin - 0713813919   OR Alicia 0713813911"],
+      df: ["Simon- 0713813914  OR  Loise - 0713813913"],
+      ea: ["Brian- 0713813919 OR  Ann - 0720384088"],
+      eb: ["Simon- 0713813919  OR  Alicia- 0713813911"],
+      ec: ["Samson - 0713813919  OR  Rose- 0713813911"],
+      ed: ["Kevoh - 0713813919  OR  Alice- 0713813911"],
+      ee: ["You do not need a guide you are already at this Destination"],
+      ef: ["Angelo- 0713813919   OR  Alice- 0713813911"],
+      fa: ["Moha- 0722311908 OR  Rose-0722311319"],
+      fb: [" Sam- 0713813914  OR Judy - 0713813913"],
+      fc: ["SamSon- 0713813914  OR Rahab - 0713813913"],
+      fd: ["John- 0713813914   OR Vennesa - 0713813913"],
+      fe: [" Anthony- 0713813914  OR  Clare - 0713813913"],
+      ff: ["You do not need a guide you are already at this Destination"]
     };
+    // if((locations ===aa)  || (locations ===bb) ||(locations ===cc) ||(locations ===dd) ||(locations ===ee) ||(locations ===ff)) {
+    //     output.innerHTML=guidesObject[locations];
+    // }
+    // else {
    output.innerHTML =
       " The following guides will be of assistance " + guidesObject[locations];
+    
   
   });
   
