@@ -104,13 +104,19 @@ function getVariables() {
    output.innerHTML =
       " The following guides will be of assistance " + guidesObject[locations];
   });
-//   $(document).ready(function(){
-//     $('#sumit').submit(function (event) {
-//         event.preventDefault(); 
-//         outputParagraphs.innerHTML=" Thank you for reaching out to us."
-//     })
-// })
+ 
+$(document).ready(function(){
+    $('#submit').click(function(){
+        event.preventDefault();
+        var name= $('#name').val();
+        var email =$('#email').val();
+        if (name=='' || email=='' ){
+            alert('All fields are required kindly fill in and try again')
+        } else{
+            alert(`Hey ${name}, Thanks for reaching out, we will get back to you via your email ${email} shortly.`);
+        }
         
-
+    });
+})
 
   
